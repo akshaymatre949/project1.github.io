@@ -1,0 +1,264 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+li
+{
+  list-style: none;
+}
+
+p
+{
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: black;
+}
+
+h4
+{
+  line-height: 1.6;
+  color: black;
+  text-align: center;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url('./images/preloader.gif');
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+/* navbar style */
+
+.navbar::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, darkgrey, darkgrey, darkgrey);
+  opacity: 1;
+  z-index: -1;
+
+}
+
+/* navitem color */
+.nav-item a
+{
+  color: white;
+  font-weight: bold;
+}
+
+/* header-section */
+.header-section 
+{
+  
+  background-image:url('./Images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  padding-bottom: 200px;
+  margin-top: 65px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.header-section::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.card:hover
+{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.read-btn:hover
+{
+  background-color: blue;
+}
+
+.text-color:hover
+{
+  color: white;
+}
+
+.true-facts
+{
+  background-image:url('./Images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:100%;
+  margin-top: 65px;
+  position: relative;
+  background-attachment:; 
+}
+
+.true-facts::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.about-header-section 
+{
+  
+  background-image:url('./Images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  padding-bottom: 150px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.about-header-section::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.services-header-section 
+{
+  
+  background-image:url('./Images/bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  padding-bottom: 150px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.services-header-section::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.career-header-section 
+{
+  
+  background-image:url('./Images/bg4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  padding-bottom: 150px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.career-header-section::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+
+.contact-header-section 
+{
+  
+  background-image:url('./Images/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90%;
+  padding-bottom: 150px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.contact-header-section::before
+{
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,black,black);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.contact-card:hover
+{
+  background-color: grey;
+  color: white;
+}
